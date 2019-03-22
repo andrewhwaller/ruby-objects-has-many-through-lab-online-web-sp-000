@@ -2,7 +2,7 @@ class Genre
   attr_accessor
 
   @@all = []
-  
+
   def initialize
 
 
@@ -12,5 +12,5 @@ class Genre
     @@all
   end
 
-  
+
 end
