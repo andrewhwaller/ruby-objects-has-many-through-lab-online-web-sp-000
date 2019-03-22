@@ -13,8 +13,4 @@ class Appointment
   def self.all
     @@all
   end
-
-  # def patient
-  #   self.appointments.map(&:doctor)
-  # end
 end
