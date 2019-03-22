@@ -11,5 +11,9 @@ class Patient
     @name = name
     @doctor = doctor
   end
+
+  def new_appointment(doctor, date)
+    Appointment.new(patient, doctor, date)
+  end
   
 end
