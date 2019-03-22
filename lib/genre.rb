@@ -1,12 +1,11 @@
 class Genre
-  attr_accessor
+  attr_accessor :name
 
   @@all = []
 
   def initialize()
     @name = name
-    @@all << self 
-
+    @@all << self
   end
 
   def self.all
