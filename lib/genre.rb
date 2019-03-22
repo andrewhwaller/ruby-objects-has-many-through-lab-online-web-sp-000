@@ -14,7 +14,6 @@ class Genre
 
   def songs
     songs.all.find { |song| song.genre == self }
-
   end
 
 
